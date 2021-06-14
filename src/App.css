@@ -1,38 +1,99 @@
-.App {
+/* Head */
+* {
+  margin: 0;
+}
+.head {
+  background: darkgreen;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.head h3 {
+  padding-top: 5%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.head h1 {
+  color: whitesmoke;
+  font-size: 3rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.line {
+  text-align: center;
+  border-bottom: 1px solid whitesmoke;
+  width: 28%;
+  margin-top: 3%;
+  margin-left: 36%;
+}
+.lineHeight {
+  border-left: 1px solid whitesmoke;
+}
+.text {
+  padding: 5% 15% 0;
+}
+.numb {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  padding: 3% 0 3% 0;
+}
+/* firstSection */
+#what {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#what h4 {
+  color: darkgreen;
+  font-size: 1.5rem;
+}
+#what h1 {
+  margin: 0 15% 7%;
+}
+.flex {
+  display: flex;
+}
+.img-flex {
+  display: flex;
+  text-align: left;
+}
+.img-flex img {
+  position: relative;
+  top: -30px;
+  padding-right: 3%;
+  padding-left: 5%;
+}
+#firstSection div img, #secondSection div img {
+  width: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Footer */
+#firstLine img, #secondLine article img{
+  height: 150px;
+  width: 200px;
+  object-fit: cover;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#firstLine, #secondLine {
+  display: flex;
+  justify-content: space-between;
+}
+#firstLine h4, #secondLine h4 {
+  color: rgb(138, 138, 224);
+  padding-bottom: 10%;
+  font-weight: bold;
+  margin-top: 3%;
+}
+#firstLine div, #secondLine div {
+  margin-top: 3%;
+  color: aquamarine;
+}
+#secondLine {
+  margin-top: 5%;
+}
+.food {
+  margin: 0 7% 10%;
+  padding: 0 2%;
+  background: white;
+}
+.foodImg {
+  width: 200px;
+}
+.grey {
+  background: lightgrey;
+  margin-left: 4%;
+  margin-right: 4%;
 }
